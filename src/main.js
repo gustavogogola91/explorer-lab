@@ -21,12 +21,8 @@ function setCardType(type = "default") {
 }
 globalThis.setCardType = setCardType;
 
-
-//security code
 const securityCode = document.querySelector("#security-code");
 const securityCodePattern = {
-  mask: "0000"
+  mask: "0000",
 };
-const securityCodeMasked = IMask(securityCode, securityCodePattern)
-
-
+const securityCodeMasked = IMask(securityCode, securityCodePattern);
