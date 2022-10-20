@@ -75,3 +75,4 @@ const cardNumberPattern = {
   },
 };
 const cardNumberMasked = IMask(cardNumber, cardNumberPattern);
+
